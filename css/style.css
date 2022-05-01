@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(97, 97, 97);
+    font: normal 15pt Lato;
+}
+
+header{
+    color: white;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    width: 500px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+header h1{
+    padding-top: 10px;
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.461);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#res{
+    text-align: center;
+    margin-bottom: 20px;
+}
