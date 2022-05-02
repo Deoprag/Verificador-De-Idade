@@ -26,9 +26,12 @@ function verificar() {
             } else if ( (idade < 25) ) {
                 // JOVEM
                 img.setAttribute('src', 'assets/jovemm.png')
-            } else if ( (idade < 50) ) {
+            } else if ( (idade < 40) ) {
                 // ADULTO
                 img.setAttribute('src', 'assets/adultom.png')
+            } else if ( (idade < 60) ) {
+                // MADURO
+                img.setAttribute('src','assets/madurom.png')
             } else {
                 // IDOSO
                 img.setAttribute('src', 'assets/idosom.png')
@@ -47,9 +50,12 @@ function verificar() {
             } else if ( (idade < 25) ) {
                 // JOVEM
                 img.setAttribute('src', 'assets/jovemf.png')
-            } else if ( (idade < 50) ) {
+            } else if ( (idade < 40) ) {
                 // ADULTO
                 img.setAttribute('src', 'assets/adultof.png')
+            } else if ( (idade < 60) ) {
+                // MADURO
+                img.setAttribute('src','assets/madurof.png')
             } else {
                 // IDOSO
                 img.setAttribute('src', 'assets/idosof.png')
