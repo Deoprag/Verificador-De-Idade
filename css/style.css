@@ -18,6 +18,7 @@ header h1{
 }
 
 section{
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.85);
     width: 500px;
     border-radius: 10px;
@@ -26,10 +27,30 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.461);
 }
 
-footer{
+#confirmar{
+    width: 100px;
+    height: 40px;
+    font-size: 13pt;
+    border: none;
+    background-color: rgb(97, 97, 97);
+    cursor: pointer;
     color: white;
+    border-radius: 12px;
+}
+
+#confirmar:hover{
+    transition: 0.2s;
+    background-color: rgb(70, 70, 70);
+}
+
+footer{
     text-align: center;
     font-style: italic;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }
 
 #res{

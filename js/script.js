@@ -1,7 +1,7 @@
 function verificar() {
     var data = new Date()
     var ano = data.getFullYear()
-    var fano = window.document.querySelector('input#nasc');
+    var fano = window.document.querySelector('input#nasc')
     var res = window.document.querySelector('div#res')
 
     if ( (fano.value.length < 4) || (Number(fano.value) < 1920) || (fano.value > ano) ) {
